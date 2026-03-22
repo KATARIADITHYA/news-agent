@@ -1,6 +1,6 @@
 # PolitiSense 🏛️
 
-**Multi-Agent RAG Pipeline for Verifying & Quantifying Trump Policy Volatility**
+**Agent RAG Pipeline for Verifying & Quantifying Trump Policy Volatility**
 
 MS Data Science Final Project — University of North Texas
 
