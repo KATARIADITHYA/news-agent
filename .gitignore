@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Secrets — NEVER commit
+.env
+*.env
+
+# ChromaDB — large vector DB, rebuild locally
+politisense/chroma_db/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large model/data files
+*.bin
+*.pt
+*.safetensors
+
+# Temp
+tmp/
+temp/

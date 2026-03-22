@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env
+.venv
+
+# Environment & secrets — NEVER commit these
+.env
+*.env
+
+# ChromaDB (large vector database — rebuild locally)
+chroma_db/
+
+# Data cache
+data/*_cache.csv
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+
+# Large model files
+*.bin
+*.pt
+*.safetensors
+
+# Temp
+tmp/
+temp/

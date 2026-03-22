@@ -39,7 +39,7 @@ The RAG stage searches 483 whitehouse.gov presidential actions using semantic si
 
 > The agent matched the correct whitehouse.gov executive order on the first attempt with 58/100 cosine similarity confidence.
 
-![Policy Analysis Dashboard](Screenshot_1.png)
+![Policy Analysis Dashboard](metrics.png)
 
 ---
 
@@ -97,7 +97,7 @@ Measures whether the ETFs Claude mapped are relevant AND whether the market actu
 
 **Key finding:** INDA dropped -8.9% in the 30 days after the EO, compared to only -3.2% in the 60 days before — a clear signal that the tariff announcement had a significant negative impact on Indian equities. Volatility rose +17.1%, confirming elevated market uncertainty.
 
-![Market Impact Dashboard](Screenshot_2.png)
+![Market Impact Dashboard](metrics_2.png)
 
 ---
 
