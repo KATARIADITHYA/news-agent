@@ -10,12 +10,19 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+try:
+    import streamlit as st
+    if "ANTHROPIC_API_KEY" in st.secrets:
+        os.environ["ANTHROPIC_API_KEY"] = st.secrets["ANTHROPIC_API_KEY"]
+except Exception:
+    pass
+
 # ── Paths ──────────────────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).parent
 CHROMA_DB_PATH = os.getenv("CHROMA_DB_PATH", str(BASE_DIR / "chroma_db"))
 WHITEHOUSE_CSV_PATH = os.getenv(
     "WHITEHOUSE_CSV_PATH",
-    str(BASE_DIR.parent / "whitehouse_presidential_actions_full.csv"),
+    str(BASE_DIR / "whitehouse_presidential_actions_full.csv"),
 )
 
 # ── API Keys ───────────────────────────────────────────────────────────────────

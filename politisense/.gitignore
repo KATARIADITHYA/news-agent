@@ -45,3 +45,5 @@ data/*_cache.csv
 # Temp
 tmp/
 temp/
+
+.streamlit/secrets.toml
