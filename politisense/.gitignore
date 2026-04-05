@@ -21,7 +21,6 @@ env/
 *.env
 
 # ChromaDB (large vector database — rebuild locally)
-chroma_db/
 
 # Data cache
 data/*_cache.csv

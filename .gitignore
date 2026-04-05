@@ -13,7 +13,6 @@ build/
 *.env
 
 # ChromaDB — large vector DB, rebuild locally
-politisense/chroma_db/
 
 # macOS
 .DS_Store
