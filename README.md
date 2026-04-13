@@ -92,8 +92,8 @@ Measures whether the ETFs Claude mapped are relevant AND whether the market actu
 | Ticker | Name | Pre-event Return | Post-event Return | Vol Change | Post-event Vol |
 |---|---|---|---|---|---|
 | INDA | India | -3.2% | **-8.9%** | +17.1% | +15.8% |
-| USO | Oil | — | — | — | — |
-| SPY | Market benchmark | — | — | — | — |
+| USO | Oil | +7.9%  | +54.4% | +99.3% | +60.6% |
+| SPY | Market benchmark | -0.6% | -2.9% | +21.2% | +11.8% |
 
 **Key finding:** INDA dropped -8.9% in the 30 days after the EO, compared to only -3.2% in the 60 days before — a clear signal that the tariff announcement had a significant negative impact on Indian equities. Volatility rose +17.1%, confirming elevated market uncertainty.
 
